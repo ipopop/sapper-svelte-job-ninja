@@ -8,3 +8,14 @@
     return { job }
 	}
 </script>
+
+<script>
+  export let job
+</script>
+
+<div class="job">
+  <h2>{ job.title }</h2>
+  <p>Salary of { job.salary }$</p>
+  <p>{ job.details }</p>
+  <a href="jobs" class="btn back">back</a>
+</div>

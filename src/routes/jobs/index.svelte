@@ -20,15 +20,18 @@
 		list-style-type: none;
 	}
 	li a {
+		background: #ecf7ff;
 		display: block;
 		padding: 15px;
 		border: 1px solid #f2f2f2;
 		border-radius: 8px;
 		margin: 10px auto;
 		text-decoration: none;
+		overflow: hidden;
 	}
 	li a:hover {
-		background: #f2f2f2;
+		color: #7975f7;
+		background: #e3f2ff;
 	}
 	div {
 		text-align: center;
@@ -38,7 +41,7 @@
 <h2>All Current Jobs</h2>
 <ul>
 	{#each jobs as job}
-		<li><a href={`jobs/${job.id}`}>{job.title}</a></li>
+		<li><a rel=prefetch href={`jobs/${job.id}`}>{job.title}</a></li>
 	{/each}
 </ul>
 

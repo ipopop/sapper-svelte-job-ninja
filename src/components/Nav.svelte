@@ -8,7 +8,7 @@
 
 <style>
 	nav {
-		background: #fff3ef;
+		background: #e3f2ff;
 	}
 	nav div {
 		max-width: 960px;
@@ -37,7 +37,10 @@
 		display: block;
 	}
 	a.current {
-		border-bottom: 3px solid #ff3e00;
+		border-bottom: 3px solid #ff3f7e;
+	}
+	a:hover {
+		color: #7975f7;
 	}
 
 	@media only screen and (max-width: 505px) {

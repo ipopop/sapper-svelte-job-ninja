@@ -46,5 +46,6 @@
   <input type="text" placeholder="job title" bind:value={title} required>
   <input type="number" placeholder="salary" bind:value={salary} required>
   <textarea placeholder="job details" bind:value={details} required></textarea>
-  <button class="btn">Add New Job</button>
+	<a rel=prefetch href="jobs" class="btn back">back</a>
+  <button class="btn">Add this New Job</button>
 </form>

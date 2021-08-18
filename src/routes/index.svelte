@@ -44,5 +44,5 @@
 	<img src="no-text-logo.png" alt="logo">
 	<h1>Jobs for Ninjas!</h1>
 	<p>Find your next assignment right here.</p>
-	<a href="jobs">View Jobs</a>
+	<a rel=prefetch href="jobs" class="btn">View Jobs</a>
 </div>
