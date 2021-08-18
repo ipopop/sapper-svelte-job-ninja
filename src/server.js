@@ -7,7 +7,7 @@ import { json } from 'body-parser';
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
-polka() // You can also use Express
+export default polka() // You can also use Express
 	.use(
 		json(),
 		compression({ threshold: 0 }),

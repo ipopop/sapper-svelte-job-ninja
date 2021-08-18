@@ -1,3 +1,16 @@
+<h1 align="center">Welcome to my first Sapper/Svelte mini project 👋</h1>
+
+### 🚀 [My Live Version in Vercel](https://job-ninja.vercel.app/)
+--- 
+
+> thank's to 'The Net Ninja' for the tuto : https://youtu.be/-1hj5O-tQXo
+---
+
+<img src="./static/JobNinja-01.png" width=300/>
+<img src="./static/JobNinja-02.png" width=300/>
+<img src="./static/JobNinja-03.png" width=300/>
+
+
 # sapper-template
 
 The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
