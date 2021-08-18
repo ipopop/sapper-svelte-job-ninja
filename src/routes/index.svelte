@@ -1,32 +1,32 @@
-<script>
-	import successkid from 'images/successkid.jpg';
+<script>	
+	console.log("home");
 </script>
 
 <style>
-	h1, figure, p {
+	h1, p {
 		text-align: center;
 		margin: 0 auto;
 	}
 
 	h1 {
-		font-size: 2.8em;
+		font-size: 3em !important;
 		text-transform: uppercase;
 		font-weight: 700;
 		margin: 0 0 0.5em 0;
 	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
 	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
+		width: 200px;
+		margin: 0 auto;
+		display: block;
 	}
 
-	p {
-		margin: 1em auto;
+	a {
+		margin-top: 40px;
+	}
+
+	div {
+		margin-top: 60px;
+		text-align: center;
 	}
 
 	@media (min-width: 480px) {
@@ -37,14 +37,12 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Job Ninja</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<div>
+	<img src="no-text-logo.png" alt="logo">
+	<h1>Jobs for Ninjas!</h1>
+	<p>Find your next assignment right here.</p>
+	<a href="jobs">View Jobs</a>
+</div>
