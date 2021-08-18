@@ -10,7 +10,7 @@ export function post(req, res, next) {
   const { title, salary, details} = req.body
   const id = uuidv4()
 
-  jobs.push({ title, salary, details, id })
+  jobs.push({ id, title, salary, details })
 
   res.end(JSON.stringify(jobs))
 }
