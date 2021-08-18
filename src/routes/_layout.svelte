@@ -11,6 +11,7 @@
 		max-width: 960px;
 		padding: 60px 10px;
 		margin: 0 auto;
+		overflow-x: hidden;
 	}
 </style>
 

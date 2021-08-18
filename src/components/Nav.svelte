@@ -8,7 +8,7 @@
 
 <style>
 	nav {
-	    background: #fff3ef;
+		background: #fff3ef;
 	}
 	nav div {
 		max-width: 960px;
@@ -38,6 +38,19 @@
 	}
 	a.current {
 		border-bottom: 3px solid #ff3e00;
+	}
+
+	@media only screen and (max-width: 505px) {
+		nav div {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		nav h1 {
+			margin-right: 1rem;
+		}
 	}
 </style>
 
