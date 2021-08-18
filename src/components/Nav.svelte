@@ -59,7 +59,8 @@
 
 <nav>
   <div>
-    <h1 on:click={handleClick}>Job Ninja</h1>
+		
+			<h1 on:click={handleClick}>Job Ninja</h1>
     <ul>
       <li><a class:current={segment === undefined} href=".">home</a></li>
       <li><a class:current={segment === 'contact'} href="contact">contact</a></li>
